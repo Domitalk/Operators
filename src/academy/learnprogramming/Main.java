@@ -56,5 +56,30 @@ public class Main {
         System.out.println("modelo 2 " + result);
 
         // yay it works
+
+
+        // CONDITIONAL LESSON START HERE //
+
+        // watch out for banana syntax and how the ; plays a role
+
+        boolean isAlien = false;
+        if (isAlien == false) {
+            // you can add semicolon and it doesn't break it for some reason when it was == false
+            // but when changed to true it still ran the sout because it cut the if statement prematurely
+            // sout became non-conditional and ran no matter what the value was
+
+            // auto recommends !isAlien
+            System.out.println("It is not an alien!");
+            System.out.println("And I am scared of aliens");
+            // there is no code block so only one line of code can be attached to the if-then statement
+
+        }
+            // we should add the curlies to make sure the if-then executes more than one line of code.
+
+        
+
+
+
+
     }
 }
