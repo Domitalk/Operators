@@ -90,8 +90,26 @@ public class Main {
         }
 
         // && is and ... again, same as JavaScript
-        // ampersand 
+        // ampersand
 
+        // ( () && () )
+        // seperate the conditions with ()
+        // lol... looks like a cat.
+
+        // OR operator ie: ||
+        // really... really similar to javascript.
+
+        // the double && and || are boolean operators
+        // single & and | are bitwise operators, much more advanced concepts
+        // mostly you'll use && and ||
+
+        if ((topScore > 90) || (secondTopScore <= 90)) {
+            System.out.println("Either or both of the conditions are true");
+        }
+
+        // I'm assuming it stops executing at the first true condition just like JS
+
+        
 
 
     }
