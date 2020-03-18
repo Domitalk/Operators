@@ -76,8 +76,21 @@ public class Main {
         }
             // we should add the curlies to make sure the if-then executes more than one line of code.
 
-        
+        int topScore = 100;
+        if (topScore != 100) {
+            // if hs NOT 100 then etc etc
+            System.out.println("You got the high score!");
+        }
 
+        // the basics like == != > >= < <= all work
+
+        int secondTopScore = 60;
+        if (topScore > secondTopScore && topScore < 100) {
+            System.out.println("Greater than second but less than 100");
+        }
+
+        // && is and ... again, same as JavaScript
+        // ampersand 
 
 
 
